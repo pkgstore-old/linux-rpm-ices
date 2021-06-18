@@ -1,0 +1,5 @@
+/var/log/ices/ices.log {
+    weekly
+    notifempty
+    missingok
+}
