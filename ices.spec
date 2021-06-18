@@ -96,7 +96,7 @@ fi
 
 
 %files
-%doc AUTHORS COPYING README TODO doc/*.html doc/*.css conf/*.xml
+%doc AUTHORS COPYING doc/*.html doc/*.css conf/*.xml
 %{_bindir}/ices
 %config(noreplace) %{_sysconfdir}/ices.conf
 %config %{_sysconfdir}/logrotate.d/ices
