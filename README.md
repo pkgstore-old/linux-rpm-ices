@@ -10,6 +10,7 @@ The primary example of a streaming server used is Icecast 2, although others cou
 
 ```
 $ dnf copr enable pkgstore/ices
+$ dnf install -y ices
 ```
 
 ### Open Build Service (OBS)
