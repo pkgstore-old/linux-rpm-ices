@@ -4,7 +4,27 @@
 
 The primary example of a streaming server used is Icecast 2, although others could be used if certain conditions are met.
 
-## How it works
+## Install
+
+### Fedora COPR
+
+```
+$ dnf copr enable pkgstore/ices
+```
+
+### Open Build Service (OBS)
+
+```
+# Work in Progress
+```
+
+## Update
+
+```
+$ dnf upgrade -y ices
+```
+
+## How to Build
 
 1. Get source from [src.fedoraproject.org](https://src.fedoraproject.org/rpms/ices).
 2. Write last commit SHA from [src.fedoraproject.org](https://src.fedoraproject.org/rpms/ices) to [CHANGELOG](CHANGELOG).
