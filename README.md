@@ -25,6 +25,13 @@ $ dnf install -y ices
 $ dnf upgrade -y ices
 ```
 
+## Remove
+
+```
+$ dnf erase -y ices
+$ dnf copr remove pkgstore/ices
+```
+
 ## How to Build
 
 1. Get source from [src.fedoraproject.org](https://src.fedoraproject.org/rpms/ices).
